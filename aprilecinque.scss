@@ -1,0 +1,25 @@
+.containeruno{
+    color: rgb(231, 122, 13);
+    background-color: gold;
+    font-family: 'elvish', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 30vh;
+}
+
+.appear {
+    opacity: 0;
+    animation: FadeInAnimation 4s ease forwards;
+}
+
+@keyframes FadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

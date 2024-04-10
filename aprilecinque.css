@@ -1,0 +1,48 @@
+.containeruno {
+  color: #e77a0d;
+  background-color: gold;
+  font-family: 'elvish', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  height: 30vh;
+}
+
+.appear {
+  opacity: 0;
+  -webkit-animation: FadeInAnimation 4s ease forwards;
+          animation: FadeInAnimation 4s ease forwards;
+}
+
+@-webkit-keyframes FadeInAnimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes FadeInAnimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=aprilecinque.css.map */
